@@ -1,2 +1,4 @@
 django === 4.0.5
 djangorestframework === 3.13.1
+social-auth-core === 4.3.0
+social-auth-app-django === 5.0.0
