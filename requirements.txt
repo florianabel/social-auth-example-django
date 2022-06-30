@@ -1,2 +1,2 @@
 django === 4.0.5
-djangorestframework
+djangorestframework === 3.13.1
