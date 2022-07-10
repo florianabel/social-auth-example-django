@@ -31,15 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'users.apps.UsersConfig',
+    'users.apps.UsersConfig', # Our users app
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'social_django',
+    'rest_framework', # Django rest framework (drf)
+    'rest_framework.authtoken', # Adding token based authentication from drf
+    'social_django', # Python social auth django app
 ]
 
 MIDDLEWARE = [
